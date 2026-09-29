@@ -1,0 +1,278 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Proyectos — Loria Interiores</title>
+  <meta name="description" content="Livings, dormitorios, cocinas y baños diseñados por Loria Interiores.">
+  <meta name="theme-color" content="#F5F1EB">
+  <meta property="og:title" content="Proyectos — Loria Interiores">
+  <meta property="og:description" content="Espacios cálidos, serenos y a tu medida.">
+  <meta property="og:image" content="https://images.unsplash.com/photo-1631679706909-1844bbd07221?auto=format&fit=crop&w=1200&h=630&q=80">
+  <link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <script>(function(){var d=document.documentElement;d.classList.add('js');try{if(!sessionStorage.getItem('loria-intro'))d.classList.add('has-loader')}catch(e){}})();</script>
+</head>
+<body id="top">
+
+<!--@shared-top-->
+  <!-- símbolo del logo (arco + rama) -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <symbol id="loria-mark" viewBox="0 0 40 58">
+      <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M5 57V20.5a15 15 0 0 1 30 0V57" vector-effect="non-scaling-stroke" style="stroke:var(--arch-c,currentColor);stroke-width:var(--mark-sw,1)"/>
+        <g vector-effect="non-scaling-stroke" style="stroke:var(--leaf-c,currentColor);stroke-width:var(--mark-sw,1)">
+          <path d="M20.6 51c-.8-9.5-.6-20 1.6-35" vector-effect="non-scaling-stroke"/>
+          <path d="M20.5 43c-4.6-.4-7.4-3.2-8.2-7.3 4.2.6 7.2 3.3 8.2 7.3z" vector-effect="non-scaling-stroke"/>
+          <path d="M20.4 37c3.8-.9 6.4-3.8 7-7.8-4 .8-6.4 3.6-7 7.8z" vector-effect="non-scaling-stroke"/>
+          <path d="M20.6 30.5c-4-.9-6.4-3.9-6.6-8 3.9 1.1 6.2 4 6.6 8z" vector-effect="non-scaling-stroke"/>
+          <path d="M21.2 24.3c3.3-1.2 5.3-4.1 5.4-7.8-3.4 1.2-5.3 4-5.4 7.8z" vector-effect="non-scaling-stroke"/>
+          <path d="M22 16.8c-1.4-3-1-6.2 1.2-8.8 1.1 2.9.6 6.1-1.2 8.8z" vector-effect="non-scaling-stroke"/>
+        </g>
+      </g>
+    </symbol>
+    <symbol id="i-arrow" viewBox="0 0 20 10"><path d="M0 5h19M15 1l4 4-4 4" fill="none" stroke="currentColor" stroke-width="1"/></symbol>
+    <symbol id="i-ig" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.4"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4.2"/></g><circle cx="17.4" cy="6.6" r="1" fill="currentColor"/></symbol>
+    <symbol id="i-mail" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.4"><rect x="3" y="5" width="18" height="14" rx="1"/><path d="m3.5 6 8.5 7 8.5-7"/></g></symbol>
+    <symbol id="i-wa" viewBox="0 0 24 24"><path fill="currentColor" d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2Zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.2-.4.2-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.1 5.1 0 0 0 1.1 2.7 11.7 11.7 0 0 0 4.5 4c1.7.7 2.3.8 3.2.6.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.1-1.2 0-.1-.2-.2-.4-.3Z"/></symbol>
+  </svg>
+
+  <!-- intro (solo la primera visita) -->
+  <div class="loader" aria-hidden="true">
+    <div class="lockup">
+      <svg class="lockup__mark" viewBox="0 0 40 58" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M5 57V20.5a15 15 0 0 1 30 0V57" pathLength="1" stroke="#A38D7B" stroke-width=".55"/>
+        <path d="M20.6 51c-.8-9.5-.6-20 1.6-35" pathLength="1" stroke="#8E8C86" stroke-width=".5" style="--i:0"/>
+        <path d="M20.5 43c-4.6-.4-7.4-3.2-8.2-7.3 4.2.6 7.2 3.3 8.2 7.3z" pathLength="1" stroke="#8E8C86" stroke-width=".5" style="--i:1"/>
+        <path d="M20.4 37c3.8-.9 6.4-3.8 7-7.8-4 .8-6.4 3.6-7 7.8z" pathLength="1" stroke="#8E8C86" stroke-width=".5" style="--i:2"/>
+        <path d="M20.6 30.5c-4-.9-6.4-3.9-6.6-8 3.9 1.1 6.2 4 6.6 8z" pathLength="1" stroke="#8E8C86" stroke-width=".5" style="--i:3"/>
+        <path d="M21.2 24.3c3.3-1.2 5.3-4.1 5.4-7.8-3.4 1.2-5.3 4-5.4 7.8z" pathLength="1" stroke="#8E8C86" stroke-width=".5" style="--i:4"/>
+        <path d="M22 16.8c-1.4-3-1-6.2 1.2-8.8 1.1 2.9.6 6.1-1.2 8.8z" pathLength="1" stroke="#8E8C86" stroke-width=".5" style="--i:5"/>
+      </svg>
+      <div class="lockup__word"><span style="--i:0">L</span><span style="--i:1">O</span><span style="--i:2">R</span><span style="--i:3">I</span><span style="--i:4">A</span></div>
+      <div class="lockup__rule"><i></i><b></b><i></i></div>
+      <div class="lockup__sub">Interiores</div>
+    </div>
+  </div>
+
+  <!-- cortina entre páginas -->
+  <div class="pt is-cover" aria-hidden="true"><svg><use href="#loria-mark"/></svg></div>
+
+  <div class="cursor" aria-hidden="true"><div class="cursor__dot"><span class="cursor__label">Ver</span></div></div>
+
+  <header class="site-header">
+    <a href="index.html" class="brand" aria-label="Loria Interiores, inicio">
+      <svg aria-hidden="true"><use href="#loria-mark"/></svg>
+      <span class="brand__word">LORIA</span>
+    </a>
+    <nav class="nav" aria-label="Principal">
+      <a href="index.html" data-nav="inicio">Inicio</a>
+      <a href="proyectos.html" data-nav="proyectos" aria-current="page">Proyectos</a>
+      <a href="estudio.html" data-nav="estudio">Estudio</a>
+      <a href="contacto.html" data-nav="contacto">Contacto</a>
+    </nav>
+    <a class="header-ig" data-ig href="https://www.instagram.com/loria.interiores/"><svg aria-hidden="true"><use href="#i-ig"/></svg>@loria.interiores</a>
+    <button class="burger" aria-label="Menú" aria-expanded="false" aria-controls="menu"><span></span><span></span></button>
+  </header>
+
+  <div class="menu" id="menu">
+    <nav class="menu__links" aria-label="Menú móvil">
+      <a href="index.html" data-nav="inicio"><span style="--i:0">Inicio</span></a>
+      <a href="proyectos.html" data-nav="proyectos" aria-current="page"><span style="--i:1">Proyectos</span></a>
+      <a href="estudio.html" data-nav="estudio"><span style="--i:2">Estudio</span></a>
+      <a href="contacto.html" data-nav="contacto"><span style="--i:3">Contacto</span></a>
+    </nav>
+    <div class="menu__foot">
+      <a data-mail="text" href="mailto:hola@loriainteriores.com">hola@loriainteriores.com</a>
+      <a data-ig="text" href="https://www.instagram.com/loria.interiores/">@loria.interiores</a>
+      <a data-tel="text" href="tel:+543546512921">03546 512921</a>
+    </div>
+  </div>
+<!--@/shared-top-->
+
+  <main>
+    <section class="page-hero">
+      <span class="eyebrow" data-reveal>Portfolio</span>
+      <h1 class="page-hero__title display h1" data-split>Proyec<em>tos</em><sup>(21)</sup></h1>
+      <p class="page-hero__lead lead" data-reveal style="--d:.3s">Livings, dormitorios, cocinas y baños que diseñamos con la misma idea: casas cálidas, simples y hechas para vivirse. Tocá cualquier imagen para verla completa.</p>
+    </section>
+
+    <div class="filters" aria-label="Filtrar proyectos">
+      <button class="filter" type="button" data-filter="all" aria-pressed="true">Todos<sup>21</sup></button>
+      <button class="filter" type="button" data-filter="living" aria-pressed="false">Livings<sup>5</sup></button>
+      <button class="filter" type="button" data-filter="dormitorios" aria-pressed="false">Dormitorios<sup>3</sup></button>
+      <button class="filter" type="button" data-filter="cocinas" aria-pressed="false">Cocinas<sup>3</sup></button>
+      <button class="filter" type="button" data-filter="banos" aria-pressed="false">Baños<sup>3</sup></button>
+      <button class="filter" type="button" data-filter="comedores" aria-pressed="false">Comedores<sup>2</sup></button>
+      <button class="filter" type="button" data-filter="detalles" aria-pressed="false">Detalles<sup>5</sup></button>
+    </div>
+
+    <section class="gallery" aria-label="Galería de proyectos">
+      <figure class="g-item g-item--arch" data-cat="living" data-full="https://images.unsplash.com/photo-1631679706909-1844bbd07221?auto=format&fit=crop&w=2000&q=80" data-reveal style="--d:0.00s">
+        <button class="g-item__btn" type="button" data-cursor="Ampliar" aria-label="Ampliar Casa Aurora"><img src="https://images.unsplash.com/photo-1631679706909-1844bbd07221?auto=format&fit=crop&w=900&h=1150&q=80" alt="Living con sofá bouclé y espejos de ratán" width="900" height="1150" loading="lazy"></button>
+        <figcaption><b>Casa Aurora</b><span>Living</span></figcaption>
+      </figure>
+      <figure class="g-item" data-cat="dormitorios" data-full="https://images.unsplash.com/photo-1617325247661-675ab4b64ae2?auto=format&fit=crop&w=2000&q=80" data-reveal style="--d:0.08s">
+        <button class="g-item__btn" type="button" data-cursor="Ampliar" aria-label="Ampliar Refugio Nogal"><img src="https://images.unsplash.com/photo-1617325247661-675ab4b64ae2?auto=format&fit=crop&w=900&h=700&q=80" alt="Dormitorio con cama sobre base de madera" width="900" height="700" loading="lazy"></button>
+        <figcaption><b>Refugio Nogal</b><span>Dormitorio</span></figcaption>
+      </figure>
+      <figure class="g-item" data-cat="banos" data-full="https://images.unsplash.com/photo-1620626011761-996317b8d101?auto=format&fit=crop&w=2000&q=80" data-reveal style="--d:0.16s">
+        <button class="g-item__btn" type="button" data-cursor="Ampliar" aria-label="Ampliar Casa del Lago"><img src="https://images.unsplash.com/photo-1620626011761-996317b8d101?auto=format&fit=crop&w=900&h=1100&q=80" alt="Baño blanco con bañera exenta y plantas" width="900" height="1100" loading="lazy"></button>
+        <figcaption><b>Casa del Lago</b><span>Baño</span></figcaption>
+      </figure>
+      <figure class="g-item" data-cat="living" data-full="https://images.unsplash.com/photo-1583847268964-b28dc8f51f92?auto=format&fit=crop&w=2000&q=80" data-reveal style="--d:0.00s">
+        <button class="g-item__btn" type="button" data-cursor="Ampliar" aria-label="Ampliar Loft Arena"><img src="https://images.unsplash.com/photo-1583847268964-b28dc8f51f92?auto=format&fit=crop&w=900&h=650&q=80" alt="Living en tonos arena con mesas bajas de madera" width="900" height="650" loading="lazy"></button>
+        <figcaption><b>Loft Arena</b><span>Living</span></figcaption>
+      </figure>
+      <figure class="g-item g-item--arch" data-cat="detalles" data-full="https://images.unsplash.com/photo-1616627547584-bf28cee262db?auto=format&fit=crop&w=2000&q=80" data-reveal style="--d:0.08s">
+        <button class="g-item__btn" type="button" data-cursor="Ampliar" aria-label="Ampliar Rincón de lectura"><img src="https://images.unsplash.com/photo-1616627547584-bf28cee262db?auto=format&fit=crop&w=900&h=1200&q=80" alt="Sillón capitoné mostaza en un ambiente luminoso" width="900" height="1200" loading="lazy"></button>
+        <figcaption><b>Rincón de lectura</b><span>Detalle</span></figcaption>
+      </figure>
+      <figure class="g-item" data-cat="cocinas" data-full="https://images.unsplash.com/photo-1600585152220-90363fe7e115?auto=format&fit=crop&w=2000&q=80" data-reveal style="--d:0.16s">
+        <button class="g-item__btn" type="button" data-cursor="Ampliar" aria-label="Ampliar Cocina Olivo"><img src="https://images.unsplash.com/photo-1600585152220-90363fe7e115?auto=format&fit=crop&w=900&h=700&q=80" alt="Cocina blanca con isla y banquetas de madera" width="900" height="700" loading="lazy"></button>
+        <figcaption><b>Cocina Olivo</b><span>Cocina</span></figcaption>
+      </figure>
+      <figure class="g-item" data-cat="comedores" data-full="https://images.unsplash.com/photo-1519710164239-da123dc03ef4?auto=format&fit=crop&w=2000&q=80" data-reveal style="--d:0.00s">
+        <button class="g-item__btn" type="button" data-cursor="Ampliar" aria-label="Ampliar Comedor Blanco"><img src="https://images.unsplash.com/photo-1519710164239-da123dc03ef4?auto=format&fit=crop&w=900&h=1100&q=80" alt="Comedor blanco y luminoso" width="900" height="1100" loading="lazy"></button>
+        <figcaption><b>Comedor Blanco</b><span>Comedor</span></figcaption>
+      </figure>
+      <figure class="g-item" data-cat="living" data-full="https://images.unsplash.com/photo-1600210491892-03d54c0aaf87?auto=format&fit=crop&w=2000&q=80" data-reveal style="--d:0.08s">
+        <button class="g-item__btn" type="button" data-cursor="Ampliar" aria-label="Ampliar Casa Vigas"><img src="https://images.unsplash.com/photo-1600210491892-03d54c0aaf87?auto=format&fit=crop&w=900&h=680&q=80" alt="Living con vigas de madera y ventanales en arco" width="900" height="680" loading="lazy"></button>
+        <figcaption><b>Casa Vigas</b><span>Living</span></figcaption>
+      </figure>
+      <figure class="g-item" data-cat="dormitorios" data-full="https://images.unsplash.com/photo-1582582621959-48d27397dc69?auto=format&fit=crop&w=2000&q=80" data-reveal style="--d:0.16s">
+        <button class="g-item__btn" type="button" data-cursor="Ampliar" aria-label="Ampliar Suite Lino"><img src="https://images.unsplash.com/photo-1582582621959-48d27397dc69?auto=format&fit=crop&w=900&h=1150&q=80" alt="Dormitorio con respaldo capitoné y lámparas cálidas" width="900" height="1150" loading="lazy"></button>
+        <figcaption><b>Suite Lino</b><span>Dormitorio</span></figcaption>
+      </figure>
+      <figure class="g-item" data-cat="banos" data-full="https://images.unsplash.com/photo-1604709177225-055f99402ea3?auto=format&fit=crop&w=2000&q=80" data-reveal style="--d:0.00s">
+        <button class="g-item__btn" type="button" data-cursor="Ampliar" aria-label="Ampliar Baño Piedra"><img src="https://images.unsplash.com/photo-1604709177225-055f99402ea3?auto=format&fit=crop&w=900&h=700&q=80" alt="Baño en gris piedra con espejo redondo" width="900" height="700" loading="lazy"></button>
+        <figcaption><b>Baño Piedra</b><span>Baño</span></figcaption>
+      </figure>
+      <figure class="g-item" data-cat="detalles" data-full="https://images.unsplash.com/photo-1618220048045-10a6dbdf83e0?auto=format&fit=crop&w=2000&q=80" data-reveal style="--d:0.08s">
+        <button class="g-item__btn" type="button" data-cursor="Ampliar" aria-label="Ampliar Aparador"><img src="https://images.unsplash.com/photo-1618220048045-10a6dbdf83e0?auto=format&fit=crop&w=900&h=900&q=80" alt="Aparador con cuadros, cerámica y flores secas" width="900" height="900" loading="lazy"></button>
+        <figcaption><b>Aparador</b><span>Detalle</span></figcaption>
+      </figure>
+      <figure class="g-item g-item--arch" data-cat="living" data-full="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=2000&q=80" data-reveal style="--d:0.16s">
+        <button class="g-item__btn" type="button" data-cursor="Ampliar" aria-label="Ampliar Living Jardín"><img src="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=900&h=1100&q=80" alt="Living con plantas y luz de tarde" width="900" height="1100" loading="lazy"></button>
+        <figcaption><b>Living Jardín</b><span>Living</span></figcaption>
+      </figure>
+      <figure class="g-item" data-cat="cocinas" data-full="https://images.unsplash.com/photo-1622372738946-62e02505feb3?auto=format&fit=crop&w=2000&q=80" data-reveal style="--d:0.00s">
+        <button class="g-item__btn" type="button" data-cursor="Ampliar" aria-label="Ampliar Cocina Carbón"><img src="https://images.unsplash.com/photo-1622372738946-62e02505feb3?auto=format&fit=crop&w=900&h=1100&q=80" alt="Cocina en madera y negro con barra" width="900" height="1100" loading="lazy"></button>
+        <figcaption><b>Cocina Carbón</b><span>Cocina</span></figcaption>
+      </figure>
+      <figure class="g-item" data-cat="dormitorios" data-full="https://images.unsplash.com/photo-1615874959474-d609969a20ed?auto=format&fit=crop&w=2000&q=80" data-reveal style="--d:0.08s">
+        <button class="g-item__btn" type="button" data-cursor="Ampliar" aria-label="Ampliar Dormitorio Tierra"><img src="https://images.unsplash.com/photo-1615874959474-d609969a20ed?auto=format&fit=crop&w=900&h=700&q=80" alt="Dormitorio con almohadones en tonos tierra" width="900" height="700" loading="lazy"></button>
+        <figcaption><b>Dormitorio Tierra</b><span>Dormitorio</span></figcaption>
+      </figure>
+      <figure class="g-item" data-cat="banos" data-full="https://images.unsplash.com/photo-1631889993959-41b4e9c6e3c5?auto=format&fit=crop&w=2000&q=80" data-reveal style="--d:0.16s">
+        <button class="g-item__btn" type="button" data-cursor="Ampliar" aria-label="Ampliar Baño Listón"><img src="https://images.unsplash.com/photo-1631889993959-41b4e9c6e3c5?auto=format&fit=crop&w=900&h=1150&q=80" alt="Baño con listones de madera" width="900" height="1150" loading="lazy"></button>
+        <figcaption><b>Baño Listón</b><span>Baño</span></figcaption>
+      </figure>
+      <figure class="g-item" data-cat="comedores" data-full="https://images.unsplash.com/photo-1615066390971-03e4e1c36ddf?auto=format&fit=crop&w=2000&q=80" data-reveal style="--d:0.00s">
+        <button class="g-item__btn" type="button" data-cursor="Ampliar" aria-label="Ampliar Comedor Nórdico"><img src="https://images.unsplash.com/photo-1615066390971-03e4e1c36ddf?auto=format&fit=crop&w=900&h=700&q=80" alt="Comedor con mesa de madera y sillas tapizadas" width="900" height="700" loading="lazy"></button>
+        <figcaption><b>Comedor Nórdico</b><span>Comedor</span></figcaption>
+      </figure>
+      <figure class="g-item" data-cat="detalles" data-full="https://images.unsplash.com/photo-1611486212557-88be5ff6f941?auto=format&fit=crop&w=2000&q=80" data-reveal style="--d:0.08s">
+        <button class="g-item__btn" type="button" data-cursor="Ampliar" aria-label="Ampliar Mesa auxiliar"><img src="https://images.unsplash.com/photo-1611486212557-88be5ff6f941?auto=format&fit=crop&w=900&h=1000&q=80" alt="Mesa auxiliar de madera con libros" width="900" height="1000" loading="lazy"></button>
+        <figcaption><b>Mesa auxiliar</b><span>Detalle</span></figcaption>
+      </figure>
+      <figure class="g-item" data-cat="living" data-full="https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&w=2000&q=80" data-reveal style="--d:0.16s">
+        <button class="g-item__btn" type="button" data-cursor="Ampliar" aria-label="Ampliar Living Sereno"><img src="https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&w=900&h=700&q=80" alt="Living neutro con sofá gris claro" width="900" height="700" loading="lazy"></button>
+        <figcaption><b>Living Sereno</b><span>Living</span></figcaption>
+      </figure>
+      <figure class="g-item" data-cat="cocinas" data-full="https://images.unsplash.com/photo-1600489000022-c2086d79f9d4?auto=format&fit=crop&w=2000&q=80" data-reveal style="--d:0.00s">
+        <button class="g-item__btn" type="button" data-cursor="Ampliar" aria-label="Ampliar Cocina Nube"><img src="https://images.unsplash.com/photo-1600489000022-c2086d79f9d4?auto=format&fit=crop&w=900&h=700&q=80" alt="Cocina con muebles oscuros y mesada clara" width="900" height="700" loading="lazy"></button>
+        <figcaption><b>Cocina Nube</b><span>Cocina</span></figcaption>
+      </figure>
+      <figure class="g-item g-item--arch" data-cat="detalles" data-full="https://images.unsplash.com/photo-1567538096630-e0c55bd6374c?auto=format&fit=crop&w=2000&q=80" data-reveal style="--d:0.08s">
+        <button class="g-item__btn" type="button" data-cursor="Ampliar" aria-label="Ampliar Silla escultura"><img src="https://images.unsplash.com/photo-1567538096630-e0c55bd6374c?auto=format&fit=crop&w=900&h=1100&q=80" alt="Silla blanca escultural sobre fondo claro" width="900" height="1100" loading="lazy"></button>
+        <figcaption><b>Silla escultura</b><span>Detalle</span></figcaption>
+      </figure>
+      <figure class="g-item" data-cat="detalles" data-full="https://images.unsplash.com/photo-1616593969747-4797dc75033e?auto=format&fit=crop&w=2000&q=80" data-reveal style="--d:0.16s">
+        <button class="g-item__btn" type="button" data-cursor="Ampliar" aria-label="Ampliar Balcón Estival"><img src="https://images.unsplash.com/photo-1616593969747-4797dc75033e?auto=format&fit=crop&w=900&h=700&q=80" alt="Balcón con sillones, plantas y luces colgantes" width="900" height="700" loading="lazy"></button>
+        <figcaption><b>Balcón Estival</b><span>Exterior</span></figcaption>
+      </figure>
+    </section>
+
+<!--@cta-->
+    <!-- CTA -->
+    <section class="cta section">
+      <figure class="cta__img arch" data-reveal="img">
+        <img src="https://images.unsplash.com/photo-1616593969747-4797dc75033e?auto=format&fit=crop&w=900&q=80" alt="Balcón con sillones de exterior, plantas y luces colgantes" loading="lazy">
+      </figure>
+      <div class="cta__body">
+        <span class="eyebrow">Contacto</span>
+        <h2 class="display h1" data-split>¿Empezamos <em>tu proyecto?</em></h2>
+        <p data-reveal>Contanos qué espacio querés transformar. Te respondemos personalmente y armamos juntos el camino, sin compromiso.</p>
+        <div class="cta__actions" data-stagger>
+          <a class="btn btn--solid" data-mail href="mailto:hola@loriainteriores.com"><svg aria-hidden="true"><use href="#i-mail"/></svg>Escribinos</a>
+          <a class="btn" data-ig href="https://www.instagram.com/loria.interiores/"><svg aria-hidden="true"><use href="#i-ig"/></svg>Instagram</a>
+          <a class="btn" data-wa href="https://wa.me/5493546512921"><svg aria-hidden="true"><use href="#i-wa"/></svg>WhatsApp</a>
+        </div>
+      </div>
+    </section>
+<!--@/cta-->
+  </main>
+
+  <div class="lightbox" hidden role="dialog" aria-modal="true" aria-label="Imagen ampliada">
+    <div class="lightbox__top">
+      <span class="lightbox__count">01 / 21</span>
+      <button class="lightbox__close" type="button">Cerrar <i></i></button>
+    </div>
+    <div class="lightbox__stage"><img src="data:," alt=""></div>
+    <div class="lightbox__bottom">
+      <p class="lightbox__cap"><b></b><span></span></p>
+      <div class="lightbox__nav">
+        <button type="button" data-prev aria-label="Anterior"><svg style="transform:scaleX(-1)"><use href="#i-arrow"/></svg></button>
+        <button type="button" data-next aria-label="Siguiente"><svg><use href="#i-arrow"/></svg></button>
+      </div>
+    </div>
+  </div>
+
+<!--@shared-bottom-->
+  <footer class="footer">
+    <div class="footer__top">
+      <a href="index.html" class="footer__logo lockup" aria-label="Loria Interiores, inicio">
+        <svg class="lockup__mark" aria-hidden="true"><use href="#loria-mark"/></svg>
+        <span class="lockup__word">LORIA</span>
+        <span class="lockup__rule"><i></i><b></b><i></i></span>
+        <span class="lockup__sub">Interiores</span>
+      </a>
+      <div class="footer__cols">
+        <div>
+          <span class="eyebrow">Navegación</span>
+          <a href="index.html">Inicio</a>
+          <a href="proyectos.html">Proyectos</a>
+          <a href="estudio.html">Estudio</a>
+          <a href="contacto.html">Contacto</a>
+        </div>
+        <div>
+          <span class="eyebrow">Contacto</span>
+          <a data-mail="text" href="mailto:hola@loriainteriores.com">hola@loriainteriores.com</a>
+          <a data-ig="text" href="https://www.instagram.com/loria.interiores/">@loria.interiores</a>
+          <a data-tel="text" href="tel:+543546512921">03546 512921</a>
+        </div>
+        <div>
+          <span class="eyebrow">Estudio</span>
+          <p>Córdoba, Argentina</p>
+          <p>Proyectos presenciales<br>y online a todo el país</p>
+        </div>
+      </div>
+    </div>
+    <div class="footer__big" aria-hidden="true"><span style="--i:0">L</span><span style="--i:1">o</span><span style="--i:2">r</span><span style="--i:3">i</span><span style="--i:4">a</span></div>
+    <div class="footer__bottom">
+      <span>© <span data-year>2026</span> Loria Interiores</span>
+      <a href="#top" data-top>Volver arriba ↑</a>
+    </div>
+  </footer>
+
+  <a class="wa-float" data-wa href="https://wa.me/5493546512921" aria-label="Escribinos por WhatsApp"><svg aria-hidden="true"><use href="#i-wa"/></svg></a>
+
+  <script src="https://unpkg.com/lenis@1.1.13/dist/lenis.min.js"></script>
+  <script src="js/main.js"></script>
+<!--@/shared-bottom-->
+</body>
+</html>
